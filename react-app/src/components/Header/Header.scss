@@ -1,0 +1,34 @@
+.main-header {
+    width: 100%;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    background-color: #2F476D;
+
+
+    &-container {
+        width: 80%;
+        display: flex;
+        background-color: #2F476D;
+        justify-content: space-between;
+        align-items: center;
+
+        a {            
+            color: #D3D3D3;
+            text-decoration: none;
+
+            &:hover {
+                 color: #fff;
+            }
+        }
+    }
+.logo{
+    font-weight: bold;
+    font-size: 35px;
+}
+    .main-header-container-link{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
